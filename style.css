@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Dancing+Script:wght@400..700&family=Holtwood+One+SC&family=MonteCarlo&family=Notable&family=Playwrite+HR+Lijeva:wght@100..400&family=Sorts+Mill+Goudy:ital@0;1&family=Spicy+Rice&display=swap');
+:root{
+    --main-bg:#9D9167;
+    --main-text:#E8D1A7;
+    --contrast:#743014;
+}
+
+body{
+    background-color: var(--main-bg);
+}
+
+.heading{
+    display: flex;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    color:var(--contrast)
+}
+
+.para{
+    display: flex;
+    text-align: left;
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size:40px;
+    color:var(--main-text);
+    border-radius: 10px;
+    background-color: rgba(132, 89, 43, 0.5);
+    height:auto;
+    padding: 10px;
+}
+.model-viewer1{
+
+    width: 80%;
+    height:500px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: rgba(68, 45, 28, 0.5);
+}
+.model-main{
+    display: flex;
+    justify-content: center;
+    width:100%
+}
+
+img{
+    border: 2px solid yellowgreen;
+    width: 70%;
+    height: auto;
+}
+.color-image{
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size:20px;
+    margin-top: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:var(--contrast)
+}
